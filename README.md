@@ -16,7 +16,11 @@
     npx eslint --version 
     ```
   	Should be the same as the version from ```package.json``` (v8.45.0).
-6. Create ```.eslintrc.cjs``` in root folder with content:
+6. In root folder, create file: 
+	```go
+	.eslintrc.cjs
+	``` 
+	with content:
 	```go
     // .eslintrc.cjs
     module.exports = {
